@@ -5,7 +5,7 @@ const app = express()
 const PORT = 3000
 
 app.get('/', (req, res) => {
-    res.send('Hello from Dockerized Node.js App 🚀')
+    res.send('Hello from Dockerized Node.js App 🚀 also, Hi my name is chaitanya and this is updated version ')
 })
 
 app.get('/about', (req, res) => {
