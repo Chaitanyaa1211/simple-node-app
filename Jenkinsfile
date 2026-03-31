@@ -9,7 +9,7 @@ pipeline {
         }
         stage ('Running The Container...') {
             steps {
-                sh 'docker run -d -p 3000:3000 --name simple-node-app:v1  simple-node-app:v1'
+                sh 'docker run -d -p 3000:3000 --name simple-node-app-v1  simple-node-app:v1'
             }
         }
     }
